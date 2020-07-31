@@ -1,0 +1,27 @@
+​<style> 
+.topnav {
+        position: relative;
+        background-color:pink;
+}
+.topnav-centered a {
+        float: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);}
+h1 {backgound-image:url ("Globe.jpg");
+text-color:black;
+font-family:"Lucida Console", Arial, Cursive;
+font-weight:bold;
+font-size: 3 em
+text-align: center;
+}
+h2 {font-family:Georgia, Verdana;
+text-color:black;
+}
+p {font-family: Arial, sans-serif
+text-color: black}
+img { float: left;
+margin: 0 12px;
+        }
+</style>
