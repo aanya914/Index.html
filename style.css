@@ -1,14 +1,29 @@
 ​<style> 
-.topnav {
-        position: relative;
-        background-color:pink;
-}
-.topnav-centered a {
-        float: none;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);}
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #2BEAE2;
+      }
+      
+      li {
+        float:left
+        ;
+      }
+      
+      li a {
+        display: block;
+        color: rgb(2, 2, 2);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: rgb(77, 166, 218)158, 149, 149);
+      }
+
 h1 {backgound-image:url ("Globe.jpg");
 text-color:black;
 font-family:"Lucida Console", Arial, Cursive;
